@@ -1,0 +1,94 @@
+.content {
+    width: 100%;
+    height: auto;
+    padding: 0.5rem 1rem;
+  }
+  .box{
+    height: 80vh;
+    position: relative;
+  }
+  
+  .box .admin-label-dashboard{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+  }
+  .card {
+    background-color: #fafafa;
+    border-radius: 0.5rem;
+    box-shadow: 10px 10px 12px 5px #4c5253;
+  }
+  
+  .container-box{
+    padding-top: 5rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+
+  .container-report{
+    padding-top: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .card-body .title {
+    margin: 10px 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.2rem;
+    color: #141316;
+    text-shadow: 1px 2px #b9c8cc;
+  }
+
+  .mount-income {
+    color: #37a766
+  }
+  .mount-expense {
+    color: #ec2929
+  }
+
+@media (max-width: 768px){
+    .container-box{
+        padding-top: 2.5rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    .container-report{
+      padding-top: 2.5rem;
+      padding-left: 0.8rem;
+      padding-right: 0.8rem;
+  }
+}
+
+@media (max-width: 425px) {
+    .container-report{
+      padding-top: 0.5rem;
+        padding-left: 0.2rem;
+        padding-right: 0.2rem;
+    }
+    .container-box{
+        padding-top: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .container-report .card .card-body {
+      padding: 0.1rem;
+    }
+    .card-body .title{
+        font-size: 1.3rem;
+    }
+}
+
+@media(max-width: 320px){
+  .container-report{
+    padding-top: 0.5rem;
+      padding-left: 0.1rem;
+      padding-right: 0.1rem;
+  }
+}

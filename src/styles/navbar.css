@@ -1,0 +1,27 @@
+.navbar-menu {
+    background: linear-gradient(to left top, #1d5697, #1f41da);
+    color: #ffffff;
+    width: 100%;
+}
+.navbar-dark .navbar-nav .nav-item {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+
+.nav-item-name{
+    color: #ffffff;
+    font-style: unset;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.nav-link{
+    padding: 0;
+}
+
+.nav-item-name:hover{
+    color: #ffffff;
+}
