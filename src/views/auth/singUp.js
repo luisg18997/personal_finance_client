@@ -10,7 +10,7 @@ import LoginForm from '../../components/forms/loginForm';
 
 
 const SingUp = () => {
-    const values = {email: '', password: ''}
+    const values = {email: '', password: '', roleId: 2}
     const [status, setStatus] =useState(false)
 
     const handleSubmit = async(value, event) => {

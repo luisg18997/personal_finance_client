@@ -28,8 +28,8 @@ const ChangePassClient = () => {
         try {
             const result = await ChangePassword(values);
             if(result.success){
-                ModalAlert('Success', 'change password success', 'succes');
-                RedirectPage('/admin/dashboard');
+                ModalAlert('Success', 'successfully updated', 'success');
+                RedirectPage('/client/dashboard');
             } else {
                 ModalAlert('Error', result.message, 'warning')
             }

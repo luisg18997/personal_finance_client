@@ -29,7 +29,7 @@ const ChangePassAdmin = () => {
         try {
             const result = await ChangePassword(value);
             if(result.success){
-                ModalAlert('Success', 'successfully updated', 'succes');
+                ModalAlert('Success', 'successfully updated', 'success');
                 RedirectPage('/admin/dashboard');
             } else {
                 ModalAlert('Error', result.message, 'warning')
